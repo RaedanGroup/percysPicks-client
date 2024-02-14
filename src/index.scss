@@ -1,5 +1,14 @@
-$color: steelblue;
+$gray-400: #6f6f6f;
+$border-radius: 5px;
+$white: #ffffff;
+$spacer: 10px;
+$input-padding-y: 8px;
+$input-padding-x: 12px;
+$input-border-width: 1px;
+$primary: #6f2f2f;
+$success: #28a745;
+$btn-padding-y: 10px;
+$btn-padding-x: 20px;
+$body-bg: #42474c;
 
-.my-flix {
-  color: $color;
-}
+@import '~bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,21 @@
+.movieView {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-shadow: 1em 1em 2em 0.25em #000000;
+
+  img {
+    height: auto;
+    max-width: 300px;
+    box-shadow: 0em 0em 2em 0.25em #000000;
+    margin: 2em 0em;
+    border: 6px solid #6f2f2f;
+  }
+
+  .card-body{
+    background-color: white;
+    border: 6px solid #6f2f2f;
+    border-style: inset;
+  }
+
+}
