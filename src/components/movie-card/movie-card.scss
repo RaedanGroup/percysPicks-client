@@ -5,4 +5,21 @@
 
 .movieCard.card {
   background-color: white;
+
+
+}
+
+.favoriteButtonContainer {
+  position: relative; // Ensure the container is positioned relatively
+  width: 100%;
+  height: 100%; // Ensure the container takes up the full width of its parent
+
+  // Use flexbox to align items
+  display: flex;
+  justify-content: flex-start; // Align items to the start (left)
+  align-items: flex-end; // Align items to the bottom
+}
+
+.favoriteButton {
+  width: 100%;
 }
