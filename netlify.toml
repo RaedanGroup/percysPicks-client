@@ -4,4 +4,6 @@
   status = 200
 
 [build]
-  base = "project-root"
+  base = "PERCYSPICKS-CLIENT"
+  functions = "PERCYSPICKS-CLIENT"
+  
