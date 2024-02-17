@@ -155,7 +155,7 @@ export function MainView() {
                       />
                   </Col>
                   <>{moviesFiltered.map((movie) => (
-                    <Col className="mb-5 movieCardTile" key={movie._id} md={3}>
+                    <Col className="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-5 movieCardTile" key={movie._id}>
                       <MovieCard
                         movie={movie}
                         user={user}

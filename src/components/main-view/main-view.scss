@@ -41,5 +41,12 @@
   margin: 20px 0;
 }
 
+@media only screen and (max-width: 425px) {
+  /* Styles for smaller screens */
+}
+
+@media only screen and (min-width: 425px) {
+  /* Styles for larger screens */
+}
 
 @import '~bootstrap/scss/bootstrap.scss';
