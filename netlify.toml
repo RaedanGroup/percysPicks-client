@@ -4,6 +4,6 @@
   status = 200
 
 [build]
-  base = "PERCYSPICKS-CLIENT"
-  functions = "PERCYSPICKS-CLIENT"
+  base = "percysPicks-client"
+  functions = "percysPicks-client"
   
