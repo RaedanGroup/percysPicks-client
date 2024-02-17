@@ -2,8 +2,4 @@
   from = "/*"
   to = "/"
   status = 200
-
-[build]
-  base = "percysPicks-client"
-  functions = "percysPicks-client"
   
