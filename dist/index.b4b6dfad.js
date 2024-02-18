@@ -27295,7 +27295,7 @@ function MainView() {
                                     lineNumber: 104,
                                     columnNumber: 24
                                 }, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
-                                    md: 5,
+                                    className: "col-xl-3 col-lg-4 col-md-5 col-sm-6",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signupView.SignupView), {}, void 0, false, {
                                         fileName: "src/components/main-view/main-view.jsx",
                                         lineNumber: 107,
@@ -27322,7 +27322,7 @@ function MainView() {
                                     lineNumber: 112,
                                     columnNumber: 24
                                 }, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
-                                    md: 5,
+                                    className: "col-xl-3 col-lg-4 col-md-5 col-sm-6",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loginView.LoginView), {
                                         onLoggedIn: (user, token)=>{
                                             setUser(user);
@@ -27452,7 +27452,7 @@ function MainView() {
                                         }, void 0),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
                                             children: moviesFiltered.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
-                                                    className: "col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-6 col-xxs-6 mb-5 movieCardTile",
+                                                    className: "col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-6 col-xxs-6 col-4 mb-5 movieCardTile",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
                                                         movie: movie,
                                                         user: user,

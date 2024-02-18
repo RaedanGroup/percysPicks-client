@@ -13255,11 +13255,17 @@ textarea.form-control-lg {
 
 @media only screen and (width <= 425px) {
   .btn {
+    --bs-btn-padding-y: 5px;
+    --bs-btn-padding-x: 5px;
     font-size: x-small;
   }
 
   .card-body, .h5 {
     font-size: small;
+  }
+
+  .loginForm, .signupForm {
+    max-width: 100%;
   }
 }
 
@@ -26520,11 +26526,17 @@ textarea.form-control-lg {
 
 @media only screen and (width <= 425px) {
   .btn {
+    --bs-btn-padding-y: 5px;
+    --bs-btn-padding-x: 5px;
     font-size: x-small;
   }
 
   .card-body, .h5 {
     font-size: small;
+  }
+
+  .loginForm, .signupForm {
+    max-width: 100%;
   }
 }
 
@@ -66292,11 +66304,17 @@ textarea.form-control-lg {
 
 @media only screen and (width <= 425px) {
   .btn {
+    --bs-btn-padding-y: 5px;
+    --bs-btn-padding-x: 5px;
     font-size: x-small;
   }
 
   .card-body, .h5 {
     font-size: small;
+  }
+
+  .loginForm, .signupForm {
+    max-width: 100%;
   }
 }
 

@@ -28,6 +28,8 @@ $body-bg: #42474c;
   /* Styles for smaller screens */
   .btn {
     font-size: x-small;
+    --bs-btn-padding-y: 5px;
+    --bs-btn-padding-x: 5px;
   }
 
   .card-body {
@@ -36,5 +38,13 @@ $body-bg: #42474c;
 
   .h5 {
     font-size: small;
+  }
+
+  .loginForm {
+    max-width: 100%;
+  }
+
+  .signupForm {
+    max-width: 100%;
   }
 }
