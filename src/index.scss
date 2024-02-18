@@ -12,3 +12,29 @@ $btn-padding-x: 20px;
 $body-bg: #42474c;
 
 @import '~bootstrap/scss/bootstrap.scss';
+
+.movieCard {
+  a {
+    text-decoration: none;
+  }
+
+  .card-title {
+    color: black;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  /* Styles for smaller screens */
+  .btn {
+    font-size: x-small;
+  }
+
+  .card-body {
+    font-size: small;
+  }
+
+  .h5 {
+    font-size: small;
+  }
+}

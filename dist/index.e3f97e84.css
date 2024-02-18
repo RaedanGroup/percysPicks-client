@@ -13244,6 +13244,25 @@ textarea.form-control-lg {
   }
 }
 
+.movieCard a {
+  text-decoration: none;
+}
+
+.movieCard .card-title {
+  color: #000;
+  font-weight: bolder;
+}
+
+@media only screen and (width <= 425px) {
+  .btn {
+    font-size: x-small;
+  }
+
+  .card-body, .h5 {
+    font-size: small;
+  }
+}
+
 .loginForm {
   background-color: #fff;
   border: 1px solid #6f6f6f;
@@ -26487,6 +26506,25 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important;
+  }
+}
+
+.movieCard a {
+  text-decoration: none;
+}
+
+.movieCard .card-title {
+  color: #000;
+  font-weight: bolder;
+}
+
+@media only screen and (width <= 425px) {
+  .btn {
+    font-size: x-small;
+  }
+
+  .card-body, .h5 {
+    font-size: small;
   }
 }
 
@@ -39799,36 +39837,6 @@ ul {
   background-color: #115c39;
 }
 
-.button {
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  background-image: linear-gradient(to top left, #0003, #0003 30%, #0000);
-  border: 0;
-  border-radius: 10px;
-  margin: 10px 0;
-  padding: 0 20px;
-  font-size: 1rem;
-  line-height: 2.5;
-  box-shadow: inset 2px 2px 3px #fff9, inset -2px -2px 3px #0009;
-}
-
-.button:active {
-  box-shadow: inset -2px -2px 3px #fff9, inset 2px 2px 3px #0009;
-}
-
-.button:hover {
-  background-color: #333;
-}
-
-.movieCardTile {
-  background-color: clear;
-}
-
-.searchBar {
-  margin: 20px 0;
-}
-
 :root, [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -53033,6 +53041,42 @@ textarea.form-control-lg {
   }
 }
 
+.button {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  background-image: linear-gradient(to top left, #0003, #0003 30%, #0000);
+  border: 0;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 0 20px;
+  font-size: 1rem;
+  line-height: 2.5;
+  box-shadow: inset 2px 2px 3px #fff9, inset -2px -2px 3px #0009;
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px #fff9, inset 2px 2px 3px #0009;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.movieCardTile {
+  background-color: clear;
+}
+
+.searchBar {
+  margin: 20px 0;
+}
+
+@media only screen and (width <= 425px) {
+  .btn {
+    font-size: x-small;
+  }
+}
+
 :root, [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -66234,6 +66278,25 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important;
+  }
+}
+
+.movieCard a {
+  text-decoration: none;
+}
+
+.movieCard .card-title {
+  color: #000;
+  font-weight: bolder;
+}
+
+@media only screen and (width <= 425px) {
+  .btn {
+    font-size: x-small;
+  }
+
+  .card-body, .h5 {
+    font-size: small;
   }
 }
 

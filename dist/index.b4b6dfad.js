@@ -27452,7 +27452,7 @@ function MainView() {
                                         }, void 0),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
                                             children: moviesFiltered.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
-                                                    className: "col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-5 movieCardTile",
+                                                    className: "col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-6 col-xxs-6 mb-5 movieCardTile",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
                                                         movie: movie,
                                                         user: user,

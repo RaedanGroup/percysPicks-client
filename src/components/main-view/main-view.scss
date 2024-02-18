@@ -1,4 +1,5 @@
 // main-view.scss
+@import '~bootstrap/scss/bootstrap.scss';
 
 .button {
   border: 0;
@@ -43,10 +44,11 @@
 
 @media only screen and (max-width: 425px) {
   /* Styles for smaller screens */
+  .btn {
+    font-size: x-small;
+  }
 }
 
 @media only screen and (min-width: 425px) {
   /* Styles for larger screens */
 }
-
-@import '~bootstrap/scss/bootstrap.scss';
